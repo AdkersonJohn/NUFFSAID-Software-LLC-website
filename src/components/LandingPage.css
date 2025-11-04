@@ -1,0 +1,67 @@
+.landing-page {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ff0000;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.content-sections {
+  padding: 4rem 2rem;
+}
+
+.section {
+  margin-bottom: 4rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  color: #ff0000;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.contact-link {
+  color: #ff0000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.contact-link:hover {
+  color: #cc0000;
+}
